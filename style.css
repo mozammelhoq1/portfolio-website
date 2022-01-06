@@ -1,11 +1,12 @@
 body {
-  font-family: "Poppins", sans-serif;
+  font-family: "Lobster", cursive;
   margin: 0px;
-  text-align: justify;
   background-color: rgba(226, 221, 221, 0.7);
 }
-p {
-  color: gray;
+p,
+small,
+a {
+  font-family: "Poppins", sans-serif;
 }
 .flex-container {
   display: flex;
@@ -16,35 +17,40 @@ p {
   width: 50%;
   margin-bottom: 5%;
 }
-
 .half-width img {
   width: 100%;
   margin-top: 5%;
 }
 .triple-width {
   width: 33.33%;
-  margin: 2%;
+  margin: 10px;
   border-radius: 5%;
   padding: 2%;
   box-shadow: 5px 5px 10px rgba(204, 202, 202, 0.9);
 }
-
 .triple-width img {
   width: 126px;
   height: 126px;
   margin-top: 8px;
   margin-left: -8px;
 }
-
-span {
-  color: orange;
+#mission {
+  background-color: rgba(79, 157, 166, 0.1);
 }
-
+#vision {
+  background-color: rgba(255, 89, 89, 0.1);
+}
+#goals {
+  background-color: #fff4d6;
+}
+span {
+  color: tomato;
+}
 .sidebar {
   width: 3%;
   height: 87px;
-  color: #ff5959;
-  background-color: #ff5959;
+  color: royalblue;
+  background-color: royalblue;
   border-radius: 50px;
   margin-top: 52px;
   margin-right: 20px;
@@ -65,10 +71,28 @@ h3 {
 }
 .button {
   text-decoration: none;
-  background-color: #ff5959;
+  background-color: royalblue;
   padding: 1% 2%;
   border-radius: 5px;
   color: white;
   font-weight: 700;
   cursor: alias;
+  border: none;
+}
+.button:hover {
+  background-color: rgba(65, 105, 225, 0.7);
+}
+.input-tag {
+  width: 75%;
+  display: block;
+  margin-bottom: 5px;
+  border: 1px solid royalblue;
+  border-radius: 5px;
+  padding: 1em;
+}
+footer {
+  color: white;
+  text-align: center;
+  background-color: black;
+  padding: 15px;
 }
