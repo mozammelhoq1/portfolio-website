@@ -2,40 +2,70 @@ body {
   font-family: "Poppins", sans-serif;
   margin: 0px;
   text-align: justify;
+  background-color: rgba(226, 221, 221, 0.7);
 }
-body p {
-  line-height: 24px;
+p {
+  color: gray;
 }
 .flex-container {
   display: flex;
+  margin-right: 5%;
+  margin-left: 5%;
 }
 .half-width {
   width: 50%;
-  margin-left: 5%;
+  margin-bottom: 5%;
 }
+
 .half-width img {
-  width: 80%;
-  margin-left: 5%;
+  width: 100%;
+  margin-top: 5%;
 }
-h1 {
-  font-size: 50px;
+.triple-width {
+  width: 33.33%;
+  margin: 2%;
+  border-radius: 5%;
+  padding: 2%;
+  box-shadow: 5px 5px 10px rgba(204, 202, 202, 0.9);
 }
-h1 span {
+
+.triple-width img {
+  width: 126px;
+  height: 126px;
+  margin-top: 8px;
+  margin-left: -8px;
+}
+
+span {
   color: orange;
 }
 
 .sidebar {
-  width: 2%;
-  height: 100px;
-  color: orangered;
-  background-color: orangered;
-  border-radius: 30px;
-  margin-top: 68px;
+  width: 3%;
+  height: 87px;
+  color: #ff5959;
+  background-color: #ff5959;
+  border-radius: 50px;
+  margin-top: 52px;
   margin-right: 20px;
+  margin-left: -5%;
+}
+h1 {
+  font-size: 50px;
+  font-weight: bolder;
+  text-align: center;
+}
+h2 {
+  font-size: 40px;
+  font-weight: bold;
+}
+h3 {
+  font-weight: bolder;
+  font-size: 30px;
 }
 .button {
   text-decoration: none;
-  background-color: tomato;
+  background-color: #ff5959;
   padding: 1% 2%;
   border-radius: 5px;
   color: white;
